@@ -1,7 +1,61 @@
+.container{
+    margin-bottom: 100px;
+}
 .nav-item{
-    padding: 0 10px;
+    
 }
 .nav-link{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+}
+.carousel-indicators li{
+    background-color: #eccb0b;
+}
+.col-md-7 h1{
+    font-size: 41px;
+}
+.col-md-7 p{
+    width: 320px;
+    text-align: justify;
+}
+.buy-now-button{
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding:9px 25px;
+    cursor: pointer;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.see-all-part a{
+    text-decoration: none;
+    color:#FF9D00;
+    font-size: 22px;
+}
+.card{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.cat1, .cat2, .cat3 {
+	padding: 20px 30px;
+	text-align: center;
+	border: none;
+	box-shadow: 5px 5px 10px lightgray;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.cat2{
+    margin-bottom: 50px;
+
+}
+footer{
+    text-align: center;
+    color:#3b3832;
+    font-size: 22px;
 }
